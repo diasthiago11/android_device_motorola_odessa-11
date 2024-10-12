@@ -21,14 +21,15 @@ $(call inherit-product, $(SRC_TARGET_DIR)/product/full_base_telephony.mk)
 # Inherit from odessa device
 $(call inherit-product, device/motorola/odessa/device.mk)
 
-# Inherit some common dotOS stuff.
-$(call inherit-product, vendor/dot/config/common.mk)
-TARGET_SUPPORTS_BLUR := true
+# Inherit some common lineageOS stuff.
+$(call inherit-product, vendor/lineage/config/common.mk)
+
+# Some Flags
+TARGET_SUPPORTS_BLUR := false
 TARGET_FACE_UNLOCK_SUPPORTED := true
 
-
 # Device identifier. This must come after all inclusions.
-PRODUCT_NAME := dot_odessa
+PRODUCT_NAME := lineage_odessa
 PRODUCT_DEVICE := odessa
 PRODUCT_BRAND := motorola
 PRODUCT_MODEL := moto g(9) plus
