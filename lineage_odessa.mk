@@ -24,6 +24,9 @@ $(call inherit-product, device/motorola/odessa/device.mk)
 # Inherit some common lineageOS stuff.
 $(call inherit-product, vendor/lineage/config/common.mk)
 
+# sign build
+-include vendor/extra/product.mk
+
 # Some Flags
 TARGET_SUPPORTS_BLUR := false
 TARGET_FACE_UNLOCK_SUPPORTED := true
