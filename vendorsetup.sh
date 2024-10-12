@@ -8,7 +8,7 @@ git clone https://gitlab.com/NemesisDevelopers/moto-camera/motorola_camera2_over
 git clone https://gitlab.com/NemesisDevelopers/motorola/motorola_motosignatureapp.git -b eleven packages/apps/MotoSignatureApp
 
 # Removals for jemmaloc
-rm -rf external/zlib
+rm -rf external/zlib-ng
 rm -rf external/jemalloc_new
 
 # ProtonAOSP clones
