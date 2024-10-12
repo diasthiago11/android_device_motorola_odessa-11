@@ -9,6 +9,7 @@ git clone https://gitlab.com/NemesisDevelopers/motorola/motorola_motosignatureap
 
 # Removals for jemmaloc
 rm -rf external/zlib-ng
+rm -rf external/zlib
 rm -rf external/jemalloc_new
 
 # ProtonAOSP clones
