@@ -15,6 +15,8 @@ rm -rf external/jemalloc_new
 # ProtonAOSP clones
 git clone https://github.com/ProtonAOSP/android_external_jemalloc_new.git -b rvc external/jemalloc_new
 
+git clone https://github.com/diasthiago11/android_external_zlib.git -b lineage-18.1 external/zlib
+
 git clone https://github.com/ProtonAOSP/android_external_zlib-ng.git -b rvc external/zlib-ng
 
 # apply patches
