@@ -15,9 +15,9 @@
 #
 
 PRODUCT_MAKEFILES := \
-    $(LOCAL_DIR)/fluid_odessa.mk
+    $(LOCAL_DIR)/lineage_odessa.mk
 
 COMMON_LUNCH_CHOICES := \
-    fluid_odessa-eng \
-    fluid_odessa-user \
-    fluid_odessa-userdebug
+    lineage_odessa-eng \
+    lineage_odessa-user \
+    lineage_odessa-userdebug
